@@ -1,0 +1,4 @@
+# Ownership for dr-demo-invoice-service
+*                   @oodles-noodles/platform-engineering
+/app/crypto.py      @oodles-noodles/security-engineering
+/deploy/            @oodles-noodles/sre

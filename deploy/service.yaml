@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: dr-demo-invoice-service
+  namespace: billing
+spec:
+  type: ClusterIP
+  selector:
+    app: dr-demo-invoice-service
+  ports:
+    - port: 80
+      targetPort: 8080
